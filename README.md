@@ -9,10 +9,7 @@ All you need make this device is an ESP32, a Waveshare ePaper display and The Gi
 
 Important: due to the extensive use of the String class DO NOT use delay() in this Sketch. I should really use char arrays rather than the String class but I'm a C++ noob. There's still a Guru Meditation issue with the ESP32 crashing when attempting to sleep. If I resolve the issue I'll post an update. In general embedded C isn't really the greatest programming language for doing a lot of string manipulation as it shreds the memory. It may (or may not) be better to use Python instead.
 
-My code's github repository: TBC
 ESP32 random number seeding: https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/random.html
-
-Incidentally the device is modelled by Dollfie Dream Ciel from Type Moon/Tsukihime. She's 1:3 sized so the Waveshare panels make excellent doll-sized Kindle eBook readers.
 
 Easy ESP32 ePaper tutorial: https://youtu.be/El38zVmog14
 How to draw bitmaps on ePaper displays: https://youtu.be/lzvnwu5lNvo
