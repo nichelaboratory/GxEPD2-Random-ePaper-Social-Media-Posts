@@ -16,4 +16,4 @@ Important: due to the extensive use of the String class DO NOT use delay() in th
 ESP32 random number seeding: https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/random.html
 
 Easy ESP32 ePaper tutorial: https://youtu.be/El38zVmog14
-How to draw bitmaps on ePaper displays: https://youtu.be/lzvnwu5lNvo
+How to draw bitmaps on ePaper displays: https://youtu.be/lzvnwu5lNv
