@@ -1,11 +1,13 @@
 # GxEPD2-Random-ePaper-Social-Media-Posts
- GxEPD2 demo project for ESP32 and Waveshare ePaper Display
+ GxEPD2 demo project for ESP32 and Waveshare ePaper Display.
  
  I thought I'd share this little beginner project I made using the ESP32 microcontroller and a Waveshare ePaper display. What you will learn: basic C++ classes, Arduino String class, randomised data including string construction, displaying of bitmaps on ePaper panels, sleep and wake up ESP32. It's a nice idea for a school or university microcontroller project. You don't have to use anime dolls - you could use anything else that has a social media presence.
 
-Full code walkthrough in this video: https://youtu.be/toWgL52biFA
+Full code walkthrough in this video:
 
 [![GxEPD2 demo project for ESP32 and Waveshare ePaper Display](https://img.youtube.com/vi/toWgL52biFA/0.jpg)](https://www.youtube.com/watch?v=toWgL52biFA)
+
+Click on the image above to watch the video or go here: https://youtu.be/toWgL52biFA
 
 All you need make this device is an ESP32, a Waveshare ePaper display and The Gimp freeware graphics package. Libraries used include the Adafruit Gfx library and the GxEDP2 ePaper library. The Waveshare display I'm using is the 3.7 inch 280x480 pixel monochrome panel.
 
