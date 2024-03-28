@@ -5,6 +5,8 @@
 
 Full code walkthrough in this video: https://youtu.be/toWgL52biFA
 
+[![GxEPD2 demo project for ESP32 and Waveshare ePaper Display](https://img.youtube.com/vi/toWgL52biFA/0.jpg)](https://www.youtube.com/watch?v=toWgL52biFA)
+
 All you need make this device is an ESP32, a Waveshare ePaper display and The Gimp freeware graphics package. Libraries used include the Adafruit Gfx library and the GxEDP2 ePaper library. The Waveshare display I'm using is the 3.7 inch 280x480 pixel monochrome panel.
 
 Important: due to the extensive use of the String class DO NOT use delay() in this Sketch. I should really use char arrays rather than the String class but I'm a C++ noob. There's still a Guru Meditation issue with the ESP32 crashing when attempting to sleep. If I resolve the issue I'll post an update. In general embedded C isn't really the greatest programming language for doing a lot of string manipulation as it shreds the memory. It may (or may not) be better to use Python instead.
